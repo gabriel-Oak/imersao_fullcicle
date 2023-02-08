@@ -34,5 +34,6 @@ export class RoutesController implements OnModuleInit {
         },
       ],
     });
+    return 'Message sended';
   }
 }
