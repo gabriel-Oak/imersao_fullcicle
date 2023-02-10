@@ -11,6 +11,9 @@ export type RouteDocument = Route & MongooseDocument;
 @Schema()
 export class Route {
   @Prop()
+  _id: string;
+
+  @Prop()
   title: string;
 
   @Prop(
